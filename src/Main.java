@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//il codice funziona tutto l'unica cosa non riesco a capire perchè quando entra nel ciclo che crea gli elementi mi salva un elemeno si e uno no saltando direttamente all'elemento successivo se possibile quando viene corretto capire dove sto sbagliando grazie mille.
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
