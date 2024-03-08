@@ -29,7 +29,7 @@ public class Image extends MultimediaElement {
 
     public void show() {
 
-        System.out.println("Showing image " + getName() + " with brightness " + brightness);
+        System.out.print("Showing image " + getName() + " with brightness " + brightness + " ");
         printBrightness(brightness);
     }
 }
