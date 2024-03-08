@@ -27,6 +27,7 @@ public class Image extends MultimediaElement {
 
     }
 
+    @Override
     public void show() {
 
         System.out.print("Showing image " + getName() + " with brightness " + brightness + " ");

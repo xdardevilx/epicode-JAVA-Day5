@@ -6,6 +6,8 @@ public class Main {
         ElementCreator creator = new ElementCreator(sc);
         MultimediaElement[] elements = creator.createElements();
         int choice = -1;
+
+        
         while (choice != 0) {
             System.out.println();
             System.out.println("scegli un opzione valida");

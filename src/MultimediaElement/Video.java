@@ -10,7 +10,6 @@ public class Video extends MultimediaElement {
     }
 
     public void printVideo(int duration) {
-        // String x = "!";
         for (int i = 0; i < duration; i++) {
             System.out.print("!");
         }
@@ -25,6 +24,7 @@ public class Video extends MultimediaElement {
 
     }
 
+    @Override
     public void play() {
         System.out.print("Playing video " + getName() + " " + duration + " " + brightness + " ");
         printVideo(duration);
