@@ -37,8 +37,6 @@ public class ElementCreator {
             System.out.println("inserisci la durata");
             int duration = scanner.nextInt();
             elements[i] = new Audio (name, duration);
-        }else{
-            System.out.println("tipo di elemento non valido");
         }
        }
 

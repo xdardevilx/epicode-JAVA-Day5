@@ -16,22 +16,29 @@ public class Main {
             choice = sc.nextInt();
             switch (choice) {
                 case 1:
+                    System.out.println("Film disponibili:");
                     for (MultimediaElement m : elements) {
                         if (m instanceof Video) {
+                            System.out.println();
                             m.play();
                         }
                     }
                     break;
                 case 2:
+                    System.out.println("Audio disponibili:");
+
                     for (MultimediaElement m : elements) {
                         if (m instanceof Audio) {
+                            System.out.println();
                             m.play();
                         }
                     }
                     break;
                 case 3:
+                    System.out.println("Image disponibili:");
                     for (MultimediaElement m : elements) {
                         if (m instanceof Image) {
+                            System.out.println();
                             m.show();
                         }
                     }
