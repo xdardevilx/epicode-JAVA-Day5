@@ -10,4 +10,7 @@ public abstract class MultimediaElement {
     public String getName() {
         return name;
     }
+
+    public void show(){};
+    public void play(){};
 }

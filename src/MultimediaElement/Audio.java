@@ -13,9 +13,14 @@ public class Audio extends MultimediaElement {
         }
     }
 
+    // public void play() {
+    //
+    // }
+    @Override
     public void play() {
+        // TODO Auto-generated method stub
+        super.play();
         System.out.print("Playing audio " + getName() + " " + duration);
-        printAudio(duration);
+         printAudio(duration);
     }
-
 }
